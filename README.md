@@ -1,5 +1,5 @@
 # Notice
-Use this repo in favor of ffruhr/ffapi as it is a replacement for the inactive, one-man-shot "ffruhr".
+Use this repo in favor of ffruhr/ffapi as it is a replacement for the inactive, one-man-show "ffruhr".
 
 Due to the fact that github organization ffruhr is a one-man-show and that it is inactive for quite a long time (last commit from that person was from 4th june of 2018, more then 1 year ago & has pending pull requests, created in 2016) we decided to create a fork.
 
