@@ -1,5 +1,5 @@
 {
-  "name": "Freifunk Warendorf",
+  "name": "Freifunk Muensterland",
   "url": "https://freifunk-muensterland.de/communities/",
   "location": {
     "city": "Warendorf",
@@ -10,7 +10,7 @@
   "contact": {
     "email": "info@freifunk-muensterland.net"
   },
-  "metacommunity": "Freifunk Ruhrgebiet",
+  "metacommunity": "Freifunk Muensterland",
   "state": {
     "focus": [
       "Public Free Wifi",
