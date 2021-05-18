@@ -1,57 +1,43 @@
 {
   "name": "Freifunk Bochum",
-  "url": "http://freifunk-bochum.de",
+  "url": "https://www.freifunk-bochum.de",
   "location": {
     "city": "Bochum",
     "country": "DE",
     "lat": 51.482100,
     "lon": 7.215458,
     "address": {
-      "Name": "Labor e.V.",
-      "Street": "Alleestr.50",
-      "Zipcode": "44793"
+      "Name": "Freifunk Bochum e.V.",
+      "Street": "Klosterstr. 43",
+      "Zipcode": "44787"
     }
   },
   "contact": {
     "email": "info@freifunk-bochum.de",
-    "irc": "irc://irc.freenode.net/ffruhr",
-    "ml": "discuss@freifunk-bochum.de",
-    "facebook": "https://www.facebook.com/Freifunk.Bochum",
-    "twitter": "@ffruhr"
+    "facebook": "https://www.facebook.com/Freifunk.Bochum"
   },
-  "metacommunity": "Freifunk Ruhrgebiet",
   "state": {
-    "nodes": 98,
+    "nodes": 345,
     "focus": [
-      "infrastructure/backbone",
       "Public Free Wifi",
       "Social Community Building",
-      "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-07-25T16:10:27.740Z"
+    "lastchange": "2021-05-18T09:12:27.740Z"
   },
-  "feeds": [
-    {
-      "name": "EventsFeed",
-      "category": "others",
-      "type": "xml",
-      "url": "https://freifunk-rheinland.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=113863465"
-    }
-  ],
   "nodeMaps": [
-      {
-         "technicalType" : "ffmap",
-         "interval": "1min",
-         "mapType" : "list/status",
-         "url" : "http://map.freifunk-bochum.de/nodes.json"
-      }
+    {
+      "technicalType" : "nodelist",
+      "interval": "1min",
+      "mapType" : "list/status",
+      "url" : "http://map.freifunk-bochum.de:4000/nodes.json"
+    }
   ],
   "techDetails": {
     "firmware": {
       "name": "gluon",
       "url": "http://images.freifunk-bochum.de",
-      "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
+      "docs": "https://www.freifunk-bochum.de/mitmachen/anleitungen/"
     },
     "dns": [
       {
@@ -86,5 +72,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.8"
+  "api": "0.4.16"
 }
