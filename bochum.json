@@ -26,12 +26,12 @@
     "lastchange": "2021-05-18T09:12:27.740Z"
   },
   "nodeMaps": [
-      {
-         "technicalType" : "nodelist",
-         "interval": "1min",
-         "mapType" : "list/status",
-         "url" : "http://map.freifunk-bochum.de:4000/nodes.json"
-      }
+    {
+      "technicalType" : "nodelist",
+      "interval": "1min",
+      "mapType" : "list/status",
+      "url" : "http://map.freifunk-bochum.de:4000/nodes.json"
+    }
   ],
   "techDetails": {
     "firmware": {
