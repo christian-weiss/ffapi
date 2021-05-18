@@ -13,12 +13,6 @@
          "interval": "1min",
          "mapType" : "list/status",
          "url" : "https://map.freifunk-essen.de/data/nodelist.json"
-      },
-      {
-         "technicalType" : "ffmap",
-         "interval": "1min",
-         "mapType" : "list/status",
-         "url" : "http://map.freifunk-ruhrgebiet.de/data/nodes.json"
       }
    ],
   "location": {
@@ -27,20 +21,18 @@
     "lat": 51.45764372910066,
     "lon": 7.011251449584961,
     "address": {
-      "Name": "Chaospott",
-      "Street": "Sibyllastr. 9",
-      "Zipcode": "45136"
+      "Name": "Freifunk Essen e. V.",
+      "Street": "Viehofer Str. 31",
+      "Zipcode": "45127"
     }
   },
   "contact": {
     "email": "kontakt@freifunk-essen.de",
     "facebook": "https://www.facebook.com/freifunk.essen",
-    "twitter": "@ffessen",
-    "googleplus": "https://plus.google.com/108682322938275317296/"
+    "twitter": "@ffessen"
   },
-  "metacommunity": "Freifunk Ruhrgebiet",
   "state": {
-    "nodes": 200,
+    "nodes": 244,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -48,7 +40,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-07-25T18:51:27.496Z"
+    "lastchange": "2021-05-18T19:01:00.496Z"
   },
   "feeds": [
     {
@@ -83,7 +75,7 @@
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://images.freifunk-ruhrgebiet.de/ffe/",
+      "url": "https://images.freifunk-essen.de/stable/factory/",
       "docs": "https://freifunk-essen.de/anleitung#einrichten"
     },
     "networks" : {
@@ -118,5 +110,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.8"
+  "api": "0.4.16"
 }
