@@ -27,10 +27,9 @@
   },
   "nodeMaps": [
     {
-      "technicalType" : "nodelist",
-      "interval": "1min",
-      "mapType" : "list/status",
-      "url" : "http://map.freifunk-bochum.de:4000/nodes.json"
+      "technicalType" : "ffmap",
+      "interval": "1x pro Minute",
+      "url" : "http://map.freifunk-bochum.de/"
     }
   ],
   "techDetails": {
