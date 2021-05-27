@@ -1,27 +1,24 @@
 {
-  "name": "Freifunk Brueggen",
-  "url": "http://freifunk-ruhrgebiet.de",
+  "name": "Freifunk Niersufer",
+  "url": "https://freifunk-niersufer.de/",
   "location": {
-    "city": "Brueggen",
+    "city": "Mülheim an der Ruhr",
     "country": "DE",
-    "lat": 51.2442461,
-    "lon": 6.1818561,
+    "lat": 51.4272925,
+    "lon": 6.8829192,
     "address": {
-      "Name": "foobar e.V.",
-      "Street": "Sibyllastr. 9",
-      "Zipcode": "45136"
+      "Name": "Freifunk Ruhrgebiet West e.V.",
+      "Street": "Postfach 10 05 17",
+      "Zipcode": "45405"
     }
   },
   "contact": {
-    "email": "kontakt@freifunk-ruhrgebiet.de",
-    "irc": "irc://irc.freenode.net/ffruhr",
-    "ml": "ruhrgebiet@forum.freifunk.net",
-    "facebook": "https://www.facebook.com/freifunk.ruhrgebiet",
-    "twitter": "@ffruhr"
+    "phone": "+49 208 45 23 57 23",
+    "email": "kontakt@freifunk.ruhr"
   },
-  "metacommunity": "Freifunk Niersufer",
+  "metacommunity": "Freifunk Ruhrgebiet West",
   "state": {
-    "nodes": 15,
+    "nodes": 342,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -29,79 +26,30 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-07-18T09:20:06.985Z"
+    "lastchange": "2021-05-27T09:20:06.985Z"
   },
   "feeds": [
     {
-      "name": "EventsFeed",
+      "name": "Freifunk Niersufer Blog",
       "category": "others",
-      "type": "xml",
-      "url": "https://freifunk-rheinland.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=113863465"
+      "type": "blog",
+      "url": "https://freifunk-niersufer.de/feed/"
     }
   ],
   "nodeMaps": [
     {
-      "url": "http://map.freifunk-ruhrgebiet.de/graph.html",
-      "interval": "1 Minute",
-      "technicalType": "ffmap",
-      "mapType": "structural"
-    },
-    {
-      "url": "http://map.freifunk-ruhrgebiet.de/geomap.html",
-      "interval": "1 Minute",
-      "technicalType": "ffmap",
-      "mapType": "geographical"
-    },
-    {
-      "url": "http://map.freifunk-ruhrgebiet.de/list.html",
+      "url": "http://map.freifunk-niersufer.de",
       "interval": "1 Minute",
       "technicalType": "ffmap",
       "mapType": "list/status"
     }
   ],
-  "support": {
-    "donations": {
-      "campaigns": [
-        {
-          "provider": "boost",
-          "projectid": "2774"
-        }
-      ]
-    }
-  },
   "techDetails": {
     "firmware": {
       "name": "gluon",
-      "url": "http://images.freifunk-ruhrgebiet.de",
-      "docs": "http://freifunk-ruhrgebiet.de/anleitung/"
+      "url": "https://freifunk-niersufer.de/firmware/",
+      "docs": "https://freifunk-niersufer.de/anleitung/"
     },
-    "dns": [
-      {
-        "domainname": "ffrg",
-        "nameserver": [
-          "10.53.0.1",
-          "10.53.8.1"
-        ]
-      }
-    ],
-    "networks": {
-      "ipv6": [
-        {
-          "network": "2a03:2260:50::/48"
-        }
-      ],
-      "ipv4": [
-        {
-          "network": "10.53.0.0/16"
-        },
-        {
-          "network": "10.0.0.0/16"
-        }
-      ]
-    },
-    "routing": [
-      "batman-adv"
-    ],
     "updatemode": [
       "autoupdate"
     ],
@@ -109,5 +57,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.8"
+  "api": "0.4.16"
 }
