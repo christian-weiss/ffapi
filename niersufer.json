@@ -1,0 +1,61 @@
+{
+  "name": "Freifunk Niersufer",
+  "url": "https://freifunk-niersufer.de/",
+  "location": {
+    "city": "Mülheim an der Ruhr",
+    "country": "DE",
+    "lat": 51.4272925,
+    "lon": 6.8829192,
+    "address": {
+      "Name": "Freifunk Ruhrgebiet West e.V.",
+      "Street": "Postfach 10 05 17",
+      "Zipcode": "45405"
+    }
+  },
+  "contact": {
+    "phone": "+49 208 45 23 57 23",
+    "email": "kontakt@freifunk.ruhr"
+  },
+  "metacommunity": "Freifunk Ruhrgebiet West",
+  "state": {
+    "nodes": 342,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2021-05-27T09:20:06.985Z"
+  },
+  "feeds": [
+    {
+      "name": "Freifunk Niersufer Blog",
+      "category": "others",
+      "type": "blog",
+      "url": "https://freifunk-niersufer.de/feed/"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "http://map.freifunk-niersufer.de",
+      "interval": "1 Minute",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "https://freifunk-niersufer.de/firmware/",
+      "docs": "https://freifunk-niersufer.de/anleitung/"
+    },
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "institutions"
+    ]
+  },
+  "api": "0.4.16"
+}
