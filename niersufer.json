@@ -10,11 +10,62 @@
       "Name": "Freifunk Ruhrgebiet West e.V.",
       "Street": "Postfach 10 05 17",
       "Zipcode": "45405"
-    }
+    },
+    "additionalLocations": [
+      {
+        "city": "Brüggen",
+        "country": "DE",
+        "lat": 51.2430813,
+        "lon": 6.1812296
+      },
+      {
+        "city": "Kleve",
+        "country": "DE",
+        "lat": 51.7854839,
+        "lon": 6.131367415330141
+      },
+      {
+        "city": "Krefeld",
+        "country": "DE",
+        "lat": 51.3331205,
+        "lon": 6.5623343
+      },
+      {
+        "city": "Moers",
+        "country": "DE",
+        "lat": 51.451283,
+        "lon": 6.62843
+      },
+      {
+        "city": "Mönchengladbach",
+        "country": "DE",
+        "lat": 51.1946983,
+        "lon": 6.4353641
+      },
+      {
+        "city": "Nettetal",
+        "country": "DE",
+        "lat": 51.3155092,
+        "lon": 6.2714171
+      },
+      {
+        "city": "Viersen",
+        "country": "DE",
+        "lat": 51.2562118,
+        "lon": 6.3905476
+      },
+      {
+        "city": "Willich",
+        "country": "DE",
+        "lat": 51.2641433,
+        "lon": 6.5446958
+      }
+    ]
   },
   "contact": {
     "phone": "+49 208 45 23 57 23",
-    "email": "kontakt@freifunk.ruhr"
+    "email": "kontakt@freifunk.ruhr",
+    "webform": "https://freifunk.ruhr/kontakt/"
   },
   "metacommunity": "Freifunk Ruhrgebiet West",
   "state": {
